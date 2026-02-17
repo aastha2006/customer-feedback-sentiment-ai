@@ -1,0 +1,236 @@
+2026-02-13 11:03:47,456 - customer_feedback_ai - INFO - Starting model training pipeline...
+2026-02-13 11:03:47,456 - customer_feedback_ai - WARNING - Dataset not found at D:\problem_statement_2\customer-feedback-ai\data\raw\dataset.csv. Generating dummy data.
+2026-02-13 11:03:47,458 - customer_feedback_ai - INFO - Loaded 100 samples.
+2026-02-13 11:03:47,460 - customer_feedback_ai - INFO - Preprocessing and vectorizing text...
+2026-02-13 11:03:47,465 - customer_feedback_ai - INFO - Vectorizer saved to D:\problem_statement_2\customer-feedback-ai\models\vectorizer.joblib
+2026-02-13 11:03:47,465 - customer_feedback_ai - INFO - Training Logistic Regression model...
+2026-02-13 11:03:47,475 - customer_feedback_ai - INFO - Model saved to D:\problem_statement_2\customer-feedback-ai\models\sentiment_model.joblib
+2026-02-13 11:03:47,475 - customer_feedback_ai - INFO - Evaluating model...
+2026-02-13 11:03:47,484 - customer_feedback_ai - INFO - Metrics saved to D:\problem_statement_2\customer-feedback-ai\models\metrics.json
+2026-02-13 11:03:47,485 - customer_feedback_ai - INFO - Training complete.
+2026-02-13 11:03:52,906 - customer_feedback_ai - INFO - Starting model training pipeline...
+2026-02-13 11:03:52,906 - customer_feedback_ai - WARNING - Dataset not found at D:\problem_statement_2\customer-feedback-ai\data\raw\dataset.csv. Generating dummy data.
+2026-02-13 11:03:52,908 - customer_feedback_ai - INFO - Loaded 100 samples.
+2026-02-13 11:03:52,910 - customer_feedback_ai - INFO - Preprocessing and vectorizing text...
+2026-02-13 11:03:52,914 - customer_feedback_ai - INFO - Vectorizer saved to D:\problem_statement_2\customer-feedback-ai\models\vectorizer.joblib
+2026-02-13 11:03:52,914 - customer_feedback_ai - INFO - Training Logistic Regression model...
+2026-02-13 11:03:52,922 - customer_feedback_ai - INFO - Model saved to D:\problem_statement_2\customer-feedback-ai\models\sentiment_model.joblib
+2026-02-13 11:03:52,923 - customer_feedback_ai - INFO - Evaluating model...
+2026-02-13 11:03:52,929 - customer_feedback_ai - INFO - Metrics saved to D:\problem_statement_2\customer-feedback-ai\models\metrics.json
+2026-02-13 11:03:52,929 - customer_feedback_ai - INFO - Training complete.
+2026-02-13 11:16:35,532 - customer_feedback_ai - INFO - Loading model artifacts...
+2026-02-13 11:16:35,607 - customer_feedback_ai - INFO - Model artifacts loaded successfully.
+2026-02-13 11:19:07,838 - customer_feedback_ai - INFO - Received prediction request for text: i don't like this product but i loved it
+...
+2026-02-13 11:19:22,321 - customer_feedback_ai - INFO - Received prediction request for text: i don't like this product at all
+
+...
+2026-02-13 11:20:43,608 - customer_feedback_ai - INFO - Loading model artifacts...
+2026-02-13 11:20:43,679 - customer_feedback_ai - INFO - Model artifacts loaded successfully.
+2026-02-13 11:20:49,300 - customer_feedback_ai - INFO - Received prediction request for text: i love it
+
+...
+2026-02-13 11:21:52,306 - customer_feedback_ai - INFO - Received prediction request for text: i don't like it
+
+...
+2026-02-13 11:22:04,644 - customer_feedback_ai - INFO - Received prediction request for text: i hate it
+
+...
+2026-02-13 11:24:05,564 - customer_feedback_ai - INFO - Loading model artifacts...
+2026-02-13 11:24:05,644 - customer_feedback_ai - INFO - Model artifacts loaded successfully.
+2026-02-13 11:27:41,789 - customer_feedback_ai - INFO - Starting model training pipeline...
+2026-02-13 11:27:41,789 - customer_feedback_ai - INFO - Loading data from D:\problem_statement_2\customer-feedback-ai\data\raw\dataset.csv
+2026-02-13 11:27:46,450 - customer_feedback_ai - INFO - Loaded 568454 samples.
+2026-02-13 11:27:46,719 - customer_feedback_ai - INFO - Preprocessing and vectorizing text...
+2026-02-13 11:29:24,207 - customer_feedback_ai - INFO - Vectorizer saved to D:\problem_statement_2\customer-feedback-ai\models\vectorizer.joblib
+2026-02-13 11:29:24,207 - customer_feedback_ai - INFO - Training Logistic Regression model...
+2026-02-13 11:30:29,384 - customer_feedback_ai - INFO - Model saved to D:\problem_statement_2\customer-feedback-ai\models\sentiment_model.joblib
+2026-02-13 11:30:29,384 - customer_feedback_ai - INFO - Evaluating model...
+2026-02-13 11:30:29,461 - customer_feedback_ai - INFO - Metrics saved to D:\problem_statement_2\customer-feedback-ai\models\metrics.json
+2026-02-13 11:30:29,461 - customer_feedback_ai - INFO - Training complete.
+2026-02-13 11:31:28,130 - customer_feedback_ai - INFO - Loading model artifacts...
+2026-02-13 11:31:28,307 - customer_feedback_ai - INFO - Model artifacts loaded successfully.
+2026-02-13 11:31:31,228 - customer_feedback_ai - INFO - Loading model artifacts...
+2026-02-13 11:31:31,412 - customer_feedback_ai - INFO - Model artifacts loaded successfully.
+2026-02-13 11:33:33,449 - customer_feedback_ai - INFO - Starting model training pipeline...
+2026-02-13 11:33:33,449 - customer_feedback_ai - INFO - Loading data from D:\problem_statement_2\customer-feedback-ai\data\raw\dataset.csv
+2026-02-13 11:33:37,917 - customer_feedback_ai - INFO - Loaded 568454 samples.
+2026-02-13 11:33:38,162 - customer_feedback_ai - INFO - Preprocessing and vectorizing text...
+2026-02-13 11:34:45,037 - customer_feedback_ai - INFO - Received prediction request for text: the model is bad
+
+
+...
+2026-02-13 11:36:46,910 - customer_feedback_ai - INFO - Vectorizer saved to D:\problem_statement_2\customer-feedback-ai\models\vectorizer.joblib
+2026-02-13 11:36:46,911 - customer_feedback_ai - INFO - Training Logistic Regression model...
+2026-02-13 11:37:32,444 - customer_feedback_ai - INFO - Loading model artifacts...
+2026-02-13 11:37:32,848 - customer_feedback_ai - INFO - Model artifacts loaded successfully.
+2026-02-13 11:37:51,807 - customer_feedback_ai - INFO - Starting model training pipeline...
+2026-02-13 11:37:51,807 - customer_feedback_ai - INFO - Loading data from D:\problem_statement_2\customer-feedback-ai\data\raw\dataset.csv
+2026-02-13 11:37:57,024 - customer_feedback_ai - INFO - Loaded 568454 samples.
+2026-02-13 11:37:57,307 - customer_feedback_ai - INFO - Preprocessing and vectorizing text...
+2026-02-13 11:40:49,366 - customer_feedback_ai - INFO - Vectorizer saved to D:\problem_statement_2\customer-feedback-ai\models\vectorizer.joblib
+2026-02-13 11:40:49,367 - customer_feedback_ai - INFO - Training Logistic Regression model...
+2026-02-13 11:41:20,933 - customer_feedback_ai - INFO - Loading model artifacts...
+2026-02-13 11:41:21,306 - customer_feedback_ai - INFO - Model artifacts loaded successfully.
+2026-02-13 11:42:47,388 - customer_feedback_ai - INFO - Starting model training pipeline...
+2026-02-13 11:42:47,388 - customer_feedback_ai - INFO - Loading data from D:\problem_statement_2\customer-feedback-ai\data\raw\dataset.csv
+2026-02-13 11:42:51,907 - customer_feedback_ai - INFO - Loaded 568454 samples.
+2026-02-13 11:42:52,156 - customer_feedback_ai - INFO - Preprocessing and vectorizing text...
+2026-02-13 11:45:48,872 - customer_feedback_ai - INFO - Vectorizer saved to D:\problem_statement_2\customer-feedback-ai\models\vectorizer.joblib
+2026-02-13 11:45:48,873 - customer_feedback_ai - INFO - Training Logistic Regression model...
+2026-02-13 11:48:11,028 - customer_feedback_ai - INFO - Model saved to D:\problem_statement_2\customer-feedback-ai\models\sentiment_model.joblib
+2026-02-13 11:48:11,029 - customer_feedback_ai - INFO - Evaluating model...
+2026-02-13 11:48:11,147 - customer_feedback_ai - INFO - Metrics saved to D:\problem_statement_2\customer-feedback-ai\models\metrics.json
+2026-02-13 11:48:11,148 - customer_feedback_ai - INFO - Training complete.
+2026-02-13 11:55:03,499 - customer_feedback_ai - INFO - Received prediction request for text: the model is bad
+
+
+...
+2026-02-13 11:55:03,501 - customer_feedback_ai - ERROR - Prediction error: X has 20000 features, but LogisticRegression is expecting 5000 features as input.
+2026-02-13 11:55:03,501 - customer_feedback_ai - ERROR - Error during prediction: X has 20000 features, but LogisticRegression is expecting 5000 features as input.
+2026-02-13 11:55:09,453 - customer_feedback_ai - INFO - Received prediction request for text: the model is bad
+
+
+...
+2026-02-13 11:55:09,454 - customer_feedback_ai - ERROR - Prediction error: X has 20000 features, but LogisticRegression is expecting 5000 features as input.
+2026-02-13 11:55:09,454 - customer_feedback_ai - ERROR - Error during prediction: X has 20000 features, but LogisticRegression is expecting 5000 features as input.
+2026-02-13 11:57:08,084 - customer_feedback_ai - INFO - Loading model artifacts...
+2026-02-13 11:57:08,305 - customer_feedback_ai - INFO - Model artifacts loaded successfully.
+2026-02-13 11:57:11,922 - customer_feedback_ai - INFO - Loading model artifacts...
+2026-02-13 11:57:12,209 - customer_feedback_ai - INFO - Model artifacts loaded successfully.
+2026-02-13 11:58:13,632 - customer_feedback_ai - INFO - Starting model training pipeline...
+2026-02-13 11:58:13,632 - customer_feedback_ai - INFO - Loading data from D:\problem_statement_2\customer-feedback-ai\data\raw\dataset.csv
+2026-02-13 11:58:18,146 - customer_feedback_ai - INFO - Loaded 568454 samples.
+2026-02-13 11:58:18,391 - customer_feedback_ai - INFO - Preprocessing and vectorizing text...
+2026-02-13 12:01:07,279 - customer_feedback_ai - INFO - Vectorizer saved to D:\problem_statement_2\customer-feedback-ai\models\vectorizer.joblib
+2026-02-13 12:01:07,279 - customer_feedback_ai - INFO - Training Logistic Regression model...
+2026-02-13 12:02:57,922 - customer_feedback_ai - INFO - Model saved to D:\problem_statement_2\customer-feedback-ai\models\sentiment_model.joblib
+2026-02-13 12:02:57,923 - customer_feedback_ai - INFO - Evaluating model...
+2026-02-13 12:02:58,023 - customer_feedback_ai - INFO - Metrics saved to D:\problem_statement_2\customer-feedback-ai\models\metrics.json
+2026-02-13 12:02:58,023 - customer_feedback_ai - INFO - Training complete.
+2026-02-13 12:03:40,825 - customer_feedback_ai - INFO - Loading model artifacts...
+2026-02-13 12:03:41,078 - customer_feedback_ai - INFO - Model artifacts loaded successfully.
+2026-02-13 12:04:21,164 - customer_feedback_ai - INFO - Received prediction request for text: i don't like it.
+...
+2026-02-13 12:04:27,223 - customer_feedback_ai - INFO - Received prediction request for text: i don't like it.
+...
+2026-02-13 12:07:49,482 - customer_feedback_ai - INFO - Loading model artifacts...
+2026-02-13 12:07:49,805 - customer_feedback_ai - INFO - Model artifacts loaded successfully.
+2026-02-13 12:07:53,426 - customer_feedback_ai - INFO - Loading model artifacts...
+2026-02-13 12:07:53,784 - customer_feedback_ai - INFO - Model artifacts loaded successfully.
+2026-02-13 12:08:07,718 - customer_feedback_ai - INFO - Received prediction request for text: i don't like it.
+...
+2026-02-13 12:11:11,617 - customer_feedback_ai - INFO - Received prediction request for text: i don't like it.
+...
+2026-02-13 12:11:26,650 - customer_feedback_ai - INFO - Received prediction request for text: i loved it.
+...
+2026-02-13 12:11:47,956 - customer_feedback_ai - INFO - Received prediction request for text: i don't like it but loved it.
+...
+2026-02-16 10:07:51,922 - customer_feedback_ai - INFO - Loading model artifacts...
+2026-02-16 10:07:53,280 - customer_feedback_ai - INFO - Model artifacts loaded successfully.
+2026-02-16 10:07:57,125 - customer_feedback_ai - INFO - Loading model artifacts...
+2026-02-16 10:07:57,536 - customer_feedback_ai - INFO - Model artifacts loaded successfully.
+2026-02-16 10:10:00,377 - customer_feedback_ai - INFO - Starting model training pipeline...
+2026-02-16 10:10:00,379 - customer_feedback_ai - INFO - Loading data from D:\problem_statement_2\customer-feedback-ai\data\raw\dataset.csv
+2026-02-16 10:10:07,118 - customer_feedback_ai - INFO - Loaded 568454 samples.
+2026-02-16 10:10:07,125 - customer_feedback_ai - INFO - Class distribution:
+sentiment
+5    363122
+4     80655
+1     52268
+3     42640
+2     29769
+Name: count, dtype: int64
+2026-02-16 10:10:07,434 - customer_feedback_ai - INFO - Preprocessing and vectorizing text...
+2026-02-16 10:13:30,695 - customer_feedback_ai - INFO - Vectorizer saved to D:\problem_statement_2\customer-feedback-ai\models\vectorizer.joblib
+2026-02-16 10:13:30,697 - customer_feedback_ai - INFO - Training LinearSVC model...
+2026-02-16 10:15:45,565 - customer_feedback_ai - INFO - Model saved to D:\problem_statement_2\customer-feedback-ai\models\sentiment_model.joblib
+2026-02-16 10:15:45,565 - customer_feedback_ai - INFO - Evaluating model...
+2026-02-16 10:15:46,083 - customer_feedback_ai - INFO - Metrics saved to D:\problem_statement_2\customer-feedback-ai\models\metrics.json
+2026-02-16 10:15:46,083 - customer_feedback_ai - INFO - Training complete.
+2026-02-16 10:40:19,948 - customer_feedback_ai - INFO - Starting BERT training pipeline...
+2026-02-16 10:40:19,948 - customer_feedback_ai - INFO - Using device: cuda
+2026-02-16 10:40:19,949 - customer_feedback_ai - INFO - Loading data from D:\problem_statement_2\customer-feedback-ai\data\raw\dataset.csv
+2026-02-16 10:40:26,115 - customer_feedback_ai - INFO - Loaded 568454 samples.
+2026-02-16 10:40:26,707 - customer_feedback_ai - INFO - Loading tokenizer: distilbert-base-uncased
+2026-02-16 10:40:27,503 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-16 10:40:27,742 - httpx - INFO - HTTP Request: GET https://huggingface.co/distilbert-base-uncased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-16 10:40:28,019 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-02-16 10:40:28,247 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-16 10:40:28,475 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-02-16 10:40:28,705 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-16 10:40:28,936 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/vocab.txt "HTTP/1.1 200 OK"
+2026-02-16 10:40:29,175 - httpx - INFO - HTTP Request: GET https://huggingface.co/distilbert-base-uncased/resolve/main/vocab.txt "HTTP/1.1 200 OK"
+2026-02-16 10:40:29,418 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/tokenizer.json "HTTP/1.1 200 OK"
+2026-02-16 10:40:29,650 - httpx - INFO - HTTP Request: GET https://huggingface.co/distilbert-base-uncased/resolve/main/tokenizer.json "HTTP/1.1 200 OK"
+2026-02-16 10:40:29,898 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-02-16 10:40:30,135 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/special_tokens_map.json "HTTP/1.1 404 Not Found"
+2026-02-16 10:40:30,368 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-02-16 10:40:30,494 - customer_feedback_ai - INFO - Loading model: distilbert-base-uncased
+2026-02-16 10:40:30,725 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-02-16 10:40:30,963 - httpx - INFO - HTTP Request: GET https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-02-16 10:40:31,211 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-02-16 10:40:31,496 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/xet-read-token/12040accade4e8a0f71eabdb258fecc2e7e948be "HTTP/1.1 200 OK"
+2026-02-16 10:42:25,735 - customer_feedback_ai - INFO - Starting BERT training pipeline...
+2026-02-16 10:42:25,736 - customer_feedback_ai - INFO - Using device: cuda
+2026-02-16 10:42:25,736 - customer_feedback_ai - INFO - Loading data from D:\problem_statement_2\customer-feedback-ai\data\raw\dataset.csv
+2026-02-16 10:42:31,503 - customer_feedback_ai - INFO - Loaded 568454 samples.
+2026-02-16 10:42:32,038 - customer_feedback_ai - INFO - Loading tokenizer: distilbert-base-uncased
+2026-02-16 10:42:32,786 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-16 10:42:33,016 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-02-16 10:42:33,257 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-16 10:42:33,485 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-02-16 10:42:33,722 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-16 10:42:33,819 - customer_feedback_ai - INFO - Loading model: distilbert-base-uncased
+2026-02-16 10:42:34,047 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-02-16 10:42:34,281 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-02-16 10:44:19,363 - customer_feedback_ai - INFO - Starting BERT training pipeline...
+2026-02-16 10:44:19,363 - customer_feedback_ai - INFO - Using device: cuda
+2026-02-16 10:44:19,363 - customer_feedback_ai - INFO - Loading data from D:\problem_statement_2\customer-feedback-ai\data\raw\dataset.csv
+2026-02-16 10:44:25,098 - customer_feedback_ai - INFO - Loaded 568454 samples.
+2026-02-16 10:44:25,633 - customer_feedback_ai - INFO - Loading tokenizer: distilbert-base-uncased
+2026-02-16 10:44:26,356 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-16 10:44:26,587 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-02-16 10:44:26,832 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-16 10:44:27,061 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-02-16 10:44:27,305 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-16 10:44:27,410 - customer_feedback_ai - INFO - Loading model: distilbert-base-uncased
+2026-02-16 10:44:27,636 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-02-16 10:44:27,870 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-02-16 10:44:33,414 - customer_feedback_ai - INFO - Starting training...
+2026-02-16 10:46:01,587 - customer_feedback_ai - INFO - Starting BERT training pipeline...
+2026-02-16 10:46:01,587 - customer_feedback_ai - INFO - Using device: cuda
+2026-02-16 10:46:01,588 - customer_feedback_ai - INFO - Loading data from D:\problem_statement_2\customer-feedback-ai\data\raw\dataset.csv
+2026-02-16 10:46:06,881 - customer_feedback_ai - INFO - Loaded 568454 samples.
+2026-02-16 10:46:07,369 - customer_feedback_ai - INFO - Loading tokenizer: distilbert-base-uncased
+2026-02-16 10:46:08,087 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-16 10:46:08,318 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-02-16 10:46:08,563 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-16 10:46:08,792 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-02-16 10:46:09,030 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-16 10:46:09,126 - customer_feedback_ai - INFO - Loading model: distilbert-base-uncased
+2026-02-16 10:46:09,351 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-02-16 10:46:09,621 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-02-16 10:46:13,108 - customer_feedback_ai - INFO - Starting training...
+2026-02-16 10:48:19,496 - customer_feedback_ai - INFO - Starting BERT training pipeline...
+2026-02-16 10:48:19,496 - customer_feedback_ai - INFO - Using device: cuda
+2026-02-16 10:48:19,496 - customer_feedback_ai - INFO - Loading data from D:\problem_statement_2\customer-feedback-ai\data\raw\dataset.csv
+2026-02-16 10:48:24,929 - customer_feedback_ai - INFO - Loaded 568454 samples.
+2026-02-16 10:48:25,440 - customer_feedback_ai - INFO - Loading tokenizer: distilbert-base-uncased
+2026-02-16 10:48:26,151 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-02-16 10:48:26,379 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-02-16 10:48:26,621 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-02-16 10:48:26,852 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-02-16 10:48:27,084 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-02-16 10:48:27,171 - customer_feedback_ai - INFO - Loading model: distilbert-base-uncased
+2026-02-16 10:48:27,404 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-02-16 10:48:27,638 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-02-16 10:48:31,032 - customer_feedback_ai - INFO - Starting training...
+2026-02-17 07:36:00,322 - customer_feedback_ai - INFO - Evaluating...
+2026-02-17 08:05:22,856 - customer_feedback_ai - INFO - Evaluation results: {'eval_loss': 0.24498362839221954, 'eval_accuracy': 0.9392212224362526, 'eval_f1': 0.9382713763869934, 'eval_precision': 0.9375544774867708, 'eval_recall': 0.9392212224362526, 'eval_runtime': 1762.5252, 'eval_samples_per_second': 64.505, 'eval_steps_per_second': 4.032, 'epoch': 3.0}
+2026-02-17 08:05:22,858 - customer_feedback_ai - INFO - Saving model to D:\problem_statement_2\customer-feedback-ai\models\distilbert_sentiment
+2026-02-17 08:05:24,329 - customer_feedback_ai - INFO - Training complete.
+2026-02-17 10:00:23,995 - customer_feedback_ai - INFO - Loading BERT model artifacts...
+2026-02-17 10:00:28,697 - customer_feedback_ai - INFO - BERT Model loaded successfully.
+2026-02-17 10:00:56,471 - customer_feedback_ai - INFO - Loading BERT model artifacts...
+2026-02-17 10:00:58,254 - customer_feedback_ai - INFO - BERT Model loaded successfully.
