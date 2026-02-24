@@ -30,12 +30,21 @@ This project showcases a comprehensive skillset relevant to **AI/ML Engineering*
 ### High-Level Data Flow
 
 ```mermaid
-graph LR
-    User[User / Client] -->|HTTP Request| API[FastAPI Server]
-    API -->|Raw Text| Tokenizer[DistilBERT Tokenizer]
-    Tokenizer -->|Token IDs| Model[DistilBERT Model (GPU)]
-    Model -->|Logits| Softmax[Probability Calc]
-    Softmax -->|JSON| User
+flowchart LR
+    Client[Client Application] -->|REST Request| API[FastAPI Service]
+
+    subgraph Inference Engine
+        Tokenizer[DistilBERT Tokenizer]
+        Model["DistilBERT Model - GPU"]
+        Softmax[Softmax Layer]
+    end
+
+    API --> Tokenizer
+    Tokenizer --> Model
+    Model --> Softmax
+    Softmax --> API
+
+    API -->|JSON Response| Client
 ```
 
 The system is built on a modular microservices architecture:
