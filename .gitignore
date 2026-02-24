@@ -24,3 +24,7 @@ models/
 *.json
 *.pt
 *.bin
+
+# Logs
+logs/
+*.log
